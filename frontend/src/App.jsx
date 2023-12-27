@@ -4,6 +4,7 @@ import Header from "./components/Layout/Header/Header";
 import Policy from "./components/Layout/Policy/Policy";
 import Products from "./components/Products/Products";
 import Slider from "./components/Slider/Slider";
+import Campaigns from "./components/Campaigns/Campaigns";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Header />
       <Slider />
       <Categories />
+      <Products />
+      <Campaigns/>
       <Products />
       <Policy />
       <Footer />
