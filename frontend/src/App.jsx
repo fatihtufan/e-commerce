@@ -1,9 +1,15 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Policy from "./components/Policy";
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Header />
+      <h1>hello Body</h1>
+      <Policy />
+      <Footer />
     </>
   );
 }
