@@ -6,21 +6,21 @@ const Slider = () => {
       <div className="slider-elements">
         <SliderItem />
         <div className="slider-buttons">
-          <button onClick="plusSlide(-1)">
+          <button>
             <i className="bi bi-chevron-left"></i>
           </button>
-          <button onClick="plusSlide(1)">
+          <button>
             <i className="bi bi-chevron-right"></i>
           </button>
         </div>
         <div className="slider-dots">
-          <button className="slider-dot active" onClick="currentSlide(1)">
+          <button className="slider-dot active">
             <span></span>
           </button>
-          <button className="slider-dot" onClick="currentSlide(2)">
+          <button className="slider-dot">
             <span></span>
           </button>
-          <button className="slider-dot" onClick="currentSlide(3)">
+          <button className="slider-dot">
             <span></span>
           </button>
         </div>
