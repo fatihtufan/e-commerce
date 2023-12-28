@@ -5,6 +5,7 @@ import Policy from "./components/Layout/Policy/Policy";
 import Products from "./components/Products/Products";
 import Slider from "./components/Slider/Slider";
 import Campaigns from "./components/Campaigns/Campaigns";
+import Blogs from "./components/Blogs/Blogs";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Campaigns/>
       <Products />
+      <Blogs/>
       <Policy />
       <Footer />
     </>
