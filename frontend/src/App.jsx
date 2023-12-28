@@ -1,25 +1,18 @@
-import Categories from "./components/Categories/Categories";
-import Footer from "./components/Layout/Footer/Footer";
-import Header from "./components/Layout/Header/Header";
-import Policy from "./components/Layout/Policy/Policy";
-import Products from "./components/Products/Products";
-import Slider from "./components/Slider/Slider";
-import Campaigns from "./components/Campaigns/Campaigns";
-import Blogs from "./components/Blogs/Blogs";
 import "./App.css";
+import CartPage from "./pages/CartPage";
+// import AuthPage from "./pages/AuthPage";
+// import HomePage from "./pages/HomePage";
+// import ShopPage from "./pages/ShopPage";
+// import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
     <>
-      <Header />
-      <Slider />
-      <Categories />
-      <Products />
-      <Campaigns/>
-      <Products />
-      <Blogs/>
-      <Policy />
-      <Footer />
+      {/* <HomePage /> */}
+      {/* <ShopPage/> */}
+      {/* <ContactPage /> */}
+      {/* <AuthPage/> */}
+      <CartPage/>
     </>
   );
 }
