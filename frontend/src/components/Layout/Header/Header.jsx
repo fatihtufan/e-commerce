@@ -1,7 +1,6 @@
-
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ setIsSearchShow }) => {
   return (
     <header>
       <div className="global-notification">
@@ -73,7 +72,9 @@ const Header = () => {
                       <div className="menu-dropdown-megamenu">
                         <div className="megamenu-links">
                           <div className="megamenu-products">
-                            <h3 className="megamenu-products-title">Shop Style</h3>
+                            <h3 className="megamenu-products-title">
+                              Shop Style
+                            </h3>
                             <ul className="megamenu-menu-list">
                               <li>
                                 <a href="#">Shop Standard</a>
@@ -124,7 +125,9 @@ const Header = () => {
                             </ul>
                           </div>
                           <div className="megamenu-products">
-                            <h3 className="megamenu-products-title">Shop Loader</h3>
+                            <h3 className="megamenu-products-title">
+                              Shop Loader
+                            </h3>
                             <ul className="megamenu-menu-list">
                               <li>
                                 <a href="#">Shop Pagination</a>
@@ -157,7 +160,10 @@ const Header = () => {
                           <h4 className="megamenu-single-subtitle">
                             Suspendisse faucibus nunc et pellentesque
                           </h4>
-                          <a href="#" className="megamenu-single-button btn btn-sm">
+                          <a
+                            href="#"
+                            className="megamenu-single-button btn btn-sm"
+                          >
                             Shop Now
                           </a>
                         </div>
@@ -183,7 +189,10 @@ const Header = () => {
                 <a href="account.html" className="header-account">
                   <i className="bi bi-person"></i>
                 </a>
-                <button className="search-button">
+                <button
+                  className="search-button"
+                  onClick={() => setIsSearchShow(true)}
+                >
                   <i className="bi bi-search"></i>
                 </button>
                 <a href="#">
