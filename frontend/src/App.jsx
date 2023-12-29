@@ -1,5 +1,8 @@
 import "./App.css";
-import CartPage from "./pages/CartPage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
+// import BlogDetailsPage from "./pages/BlogDetailsPage";
+// import BlogPage from "./pages/BlogPage";
+// import CartPage from "./pages/CartPage";
 // import AuthPage from "./pages/AuthPage";
 // import HomePage from "./pages/HomePage";
 // import ShopPage from "./pages/ShopPage";
@@ -12,7 +15,10 @@ function App() {
       {/* <ShopPage/> */}
       {/* <ContactPage /> */}
       {/* <AuthPage/> */}
-      <CartPage/>
+      {/* <CartPage/> */}
+      {/* <BlogPage/> */}
+     {/* <BlogDetailsPage/> */}
+     <ProductDetailsPage/>
     </>
   );
 }
