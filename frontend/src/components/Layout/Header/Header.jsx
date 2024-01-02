@@ -216,5 +216,5 @@ const Header = ({ setIsSearchShow }) => {
 export default Header;
 
 Header.propTypes = {
-  setIsSearchShow: PropTypes.node,
+  setIsSearchShow: PropTypes.func,
 };
